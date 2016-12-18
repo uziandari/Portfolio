@@ -1,6 +1,38 @@
-<nav>
-    <ul>
-        <li><a href="{{site.baseurl}}/">Home</a>/li>
-        <li><a href="{{site.baseurl}}">About</a>/li>
-    </ul>
+<nav class="nav">
+  <div class="nav-left">
+    <a class="nav-item is-brand" href="#">
+      <img src="#" alt="Site logo">
+    </a>
+  </div>
+
+  <div class="nav-center">
+    <a class="nav-item" href="#">
+      <span class="icon">
+        <i class="fa fa-github"></i>
+      </span>
+    </a>
+    <a class="nav-item" href="#">
+      <span class="icon">
+        <i class="fa fa-twitter"></i>
+      </span>
+    </a>
+  </div>
+
+  <span class="nav-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </span>
+
+  <div class="nav-right nav-menu">
+    <a class="nav-item is-tab {% if page.url == '/index.html' %}is-active{% endif %}" href="{{site.baseurl}}/index.html">
+      Home
+    </a>
+    <a class="nav-item is-tab {% if page.url == '/projects.html' %}is-active{% endif %}" href="{{site.baseurl}}/projects.html">
+      Projects
+    </a>
+    <a class="nav-item is-tab {% if page.url == '/blog.html' %}is-active{% endif %}" href="{{site.baseurl}}/blog.html">
+      Blog
+    </a>
+  </div>
 </nav>
