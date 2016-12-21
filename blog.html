@@ -5,7 +5,7 @@ layout: default
 <h1>Blog</h1>
 
 <ul>
-  {% for entry in site.posts limit: 2 %}
+  {% for entry in site.categories.blog limit: 2 %}
     <li>
       <a href="">{{entry.title}}</a>
       <p><{{entry.meta}}/p>
