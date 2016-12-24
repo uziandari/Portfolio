@@ -1,12 +1,13 @@
 - title: Inv/List
   description: here goes desc.
-  img: here goes img.
+  image_path: /images/invtable.jpg
+  site_path: 
 
 - title: Inv/List --reactjs
   description: here goes desc.
-  img: here goes img.
+  image_path: here goes img.
 
 - title: AdjustmentList
   description: here goes desc.
-  img: here goes img.
+  image_path: here goes img.
 
