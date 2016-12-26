@@ -9,6 +9,10 @@
   background-attachment: fixed;
 }
 
+.hero-title, .hero-subtitle {
+  color: #fff;
+}
+
 .projects {
   margin: 30px 0;
 }
