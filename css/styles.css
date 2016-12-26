@@ -1,3 +1,14 @@
+---
+---
+
+.header {
+  background-image: url('{{ site.baseurl }}/images/herobackground.jpg'); 
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .projects {
   margin: 30px 0;
 }
