@@ -1,13 +1,14 @@
 - title: Inv/List
-  description: here goes desc.
-  image_path: /images/invtable.jpg
-  site_path: 
+  description: React, Firebase. Real-time update and search.
+  image_path: /images/inv.jpg
+  site_path: https://inventory-40382.firebaseapp.com
 
 - title: Inv/List --reactjs
   description: here goes desc.
   image_path: here goes img.
 
-- title: AdjustmentList
-  description: here goes desc.
-  image_path: here goes img.
+- title: AdjustmentRec
+  description: Search by item...and item of item...and item of item of item...
+  image_path: /images/adj.jpg
+  site_path: https://adjustments.firebaseapp.com/login
 
