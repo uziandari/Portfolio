@@ -5,17 +5,20 @@
   </div>
 
   <div class="column is-half is-offset-one-quarter">
-    <label class="label">Email</label>
-    <p class="control has-icon has-icon">
-      <input class="input" type="text" placeholder="Email">
-      <i class="fa fa-envelope"></i>
-    </p>
-    <label class="label">Message</label>
-    <p class="control">
-      <textarea class="textarea" placeholder="Say Hi."></textarea>
-    </p>
-    <p class="control">
-      <button class="button is-primary">Submit</button>
-    </p>
+    <form action="https://formspree.io/stevem.res@gmail.com"
+      method="POST">
+      <label class="label">Email</label>
+      <p class="control has-icon has-icon">
+        <input class="input" type="email" name="email" placeholder="Email">
+        <i class="fa fa-envelope"></i>
+      </p>
+      <label class="label">Message</label>
+      <p class="control">
+        <textarea class="textarea" name="message" placeholder="Say Hi."></textarea>
+      </p>
+      <p class="control">
+        <button class="button is-primary">Submit</button>
+      </p>
+    </form>
   </div>
 </section>
