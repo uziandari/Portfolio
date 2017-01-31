@@ -8,3 +8,7 @@
   image_path: /images/adj.jpg
   site_path: https://adjustments.firebaseapp.com/login
 
+- title: FudGods
+  description: Create a list, then select at random.
+  image_path: /images/fudgods.jpg
+  site_path: n/a
