@@ -3,12 +3,13 @@
   image_path: /images/inv.jpg
   site_path: https://inventory-40382.firebaseapp.com
 
+- title: AltPortfolio
+  description: A alternative version of my portfolio.
+  image_path: /images/port.jpg
+  site_path: https://uziandari.github.io/spr/
+
 - title: AdjustmentRec
   description: Search by item, item of item...item of item of item...
   image_path: /images/adj.jpg
   site_path: https://adjustments.firebaseapp.com/login
 
-- title: FudGods
-  description: Create a list, then select at random.
-  image_path: /images/fudgods.jpg
-  site_path: n/a
